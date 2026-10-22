@@ -1,12 +1,23 @@
 # CLIA
 
-**Human-centered automation and agent orchestration.**
+**Command Line Interface Assistant.**
 
-CLIA (Command Line Interface Agent) is a framework for creating and collaborating with AI agents. We focus on local-first engineering environments, verifiable contributions, and robust agency modeling.
+CLIA builds local-first tools for people who direct, inspect, and collaborate with intelligent systems. It makes the work legible: every runnable unit has a purpose, an interface, and a record of how it was made.
 
-### Key Workstreams
-- **Agent Platform:** Building the core engine for cross-platform agentic workflows.
-- **Triad Modeling:** Standardizing governance through Agent, Agency, and Agenda triads.
-- **Operator Workflows:** Crafting tools that make complex automation feel human and simple.
+## A factory for CLIA bundles
 
-[Visit the CLIA Documentation](https://clia-org.github.io/documentation/clia-org)
+CLIA packages intelligence as a `<slug>.<kind>.clia` bundle: a named, inspectable unit with its session schema, terminal interface, intent contract, manifest, and training provenance together.
+
+The product has three kinds:
+
+- **`.digikoma.clia`**: AI tools that perform bounded, reviewable work.
+- **`.agent.clia`**: digital agents with a defined role, operating context, and workflow.
+- **`.ghost.clia`**: human-replica systems that preserve a person's voice and working patterns with explicit provenance.
+
+The dispatch layer routes typed requests to the right bundle, so operators can compose capable systems without losing sight of what is running or why.
+
+## Explore CLIA
+
+- [Documentation](https://clia-org.github.io/documentation/index/)
+- [CLIA on GitHub](https://github.com/clia-org)
+- [The CLIA organization profile](https://github.com/clia-org/.github)

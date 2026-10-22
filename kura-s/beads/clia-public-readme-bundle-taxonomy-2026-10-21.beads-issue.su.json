@@ -1,0 +1,20 @@
+{
+  "BeadsIssue": "0.1.0",
+  "schemaVersion": "0.1.0",
+  "id": "clia-public-readme-bundle-taxonomy-2026-10-21",
+  "title": "Clarify CLIA bundle taxonomy in the public profile",
+  "status": "closed",
+  "priority": 2,
+  "issueType": "task",
+  "labels": ["public-launch", "documentation", "clia"],
+  "description": "Make the public CLIA profile state the Command Line Interface Assistant name, the .digikoma.clia, .agent.clia, and .ghost.clia bundle kinds, and the current Pages documentation route.",
+  "relatedPaths": [
+    "profile/README.md",
+    "kura-s/beads/clia-public-readme-bundle-taxonomy-2026-10-21.beads-issue.su.json"
+  ],
+  "acceptanceCriteria": [
+    "The profile identifies CLIA as Command Line Interface Assistant.",
+    "The three CLIA bundle kinds are explained in operator-facing language.",
+    "The documentation link matches the Pages deployment route."
+  ]
+}
